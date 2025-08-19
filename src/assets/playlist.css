@@ -1,0 +1,24 @@
+.leftside-media-list {
+    background-color: blueviolet;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.media-element {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: brown;
+    border: 2px solid black;
+}
+.media-img {
+    width: 30px;
+    height: 30px;
+}
+.media-info{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    background-color: aliceblue;
+}

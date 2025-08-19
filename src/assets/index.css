@@ -1,0 +1,12 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.main-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    margin: 0px;
+}

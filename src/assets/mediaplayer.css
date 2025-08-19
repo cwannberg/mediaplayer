@@ -1,0 +1,31 @@
+.right-side-mediaplayer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.full-cover-img {
+    border: 2px solid black;
+    width: 75%;
+    height: 75%;
+    align-self: center;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    height: 25%;
+    width: 100%;
+    border: 2px solid black;
+    justify-content:space-between;
+}
+
+.player-top-section,
+.player-middle-section,
+.player-bottom-section {    
+    border: 2px solid;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content:stretch;
+}
