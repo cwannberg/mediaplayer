@@ -7,6 +7,8 @@ export const Playlist = (): ReactElement => {
         <div className="leftside-media-list">
             <MediaElement/>
             <MediaElement/>
+            <MediaElement/>
+            <MediaElement/>
         </div>
     )
 };

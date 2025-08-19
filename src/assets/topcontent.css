@@ -3,5 +3,22 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 0px;
-    background-color: aqua;
+    border: 1px solid rgb(196, 196, 196);
+    padding: 0px;
+}
+
+.arrow-back-btn,
+.hamburger-btn {
+    width: 2rem;
+    height: 2rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 1rem;
+    color: black;
+    text-decoration: 1px solid black;
+    margin: 6px;
 }
