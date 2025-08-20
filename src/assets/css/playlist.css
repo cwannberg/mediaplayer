@@ -9,7 +9,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
-    border-bottom: 1px solid rgb(196, 196, 196);
+    margin: 5px;
 }
 .media-img {
     width: 30px;
@@ -28,11 +28,10 @@
 .media-info p {
     margin: 0px;
 }
-.img-small-container {
-    padding: 10px;
-    width: 100%;
-}
 .img-small{
     width: 4rem;
     height: auto;
+}
+.playBtn{
+    margin: 10px;
 }
