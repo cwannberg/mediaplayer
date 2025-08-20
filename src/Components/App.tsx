@@ -1,6 +1,6 @@
 import { TopContent } from './TopContent.tsx';
 import { SiteContent } from './SiteContent.tsx';
-import '../assets/index.css';
+import '../assets/css/index.css';
 
 function App() {
 

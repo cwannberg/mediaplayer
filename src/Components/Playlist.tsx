@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import '../assets/playlist.css'
+import '../assets/css/playlist.css'
 import { MediaElement } from './MediaElement.tsx';
 
 export const Playlist = (): ReactElement => {

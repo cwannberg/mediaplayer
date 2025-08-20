@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import '../assets/mediaplayer.css'
+import '../assets/css/mediaplayer.css'
 import SliderMock from "./Slider";
 
 

@@ -1,5 +1,5 @@
 import type { ReactElement } from "react";
-import '../assets/sitecontent.css'
+import '../assets/css/sitecontent.css'
 import { Playlist } from './Playlist.tsx';
 import { MediaPlayer } from './MediaPlayer.tsx';
 

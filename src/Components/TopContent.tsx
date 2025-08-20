@@ -1,5 +1,5 @@
-import '../assets/topcontent.css'
-import '../assets/icons.css'
+import '../assets/css/topcontent.css'
+import '../assets/css/icons.css'
 import type { ReactElement } from "react";
 
 export const TopContent = (): ReactElement => {

@@ -30,6 +30,7 @@
 }
 .img-small-container {
     padding: 10px;
+    width: 100%;
 }
 .img-small{
     width: 4rem;
