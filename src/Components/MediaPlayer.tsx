@@ -20,11 +20,11 @@ export const MediaPlayer = (): ReactElement => {
                     <SliderMock/>
                 </div>
                 <div className="player-bottom-section">
-                    <button className="material-symbols-outlined">shuffle</button>
-                    <button className="material-symbols-outlined">skip_previous</button>
-                    <button className="material-symbols-outlined">play_arrow</button>
-                    <button className="material-symbols-outlined">skip_next</button>
-                    <button className="material-symbols-outlined">repeat</button>
+                    <button className="material-symbols-outlined playerBtn">shuffle</button>
+                    <button className="material-symbols-outlined playerBtn">skip_previous</button>
+                    <button className="material-symbols-outlined playerBtn">play_arrow</button>
+                    <button className="material-symbols-outlined playerBtn">skip_next</button>
+                    <button className="material-symbols-outlined playerBtn">repeat</button>
                 </div>
             </div>
         </div>

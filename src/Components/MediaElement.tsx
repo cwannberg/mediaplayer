@@ -1,8 +1,13 @@
 import type { ReactElement } from "react";
 import '../assets/css/playlist.css'
+import daylight from '../assets/img/daylight.jpg';
 import sooner from '../assets/img/sooner.jpg';
 import sojourn from '../assets/img/sjourn.jpg';
 import moon from '../assets/img/moon.jpg';
+import mist from '../assets/img/mist.jpg';
+import mirada from '../assets/img/mirada.jpg';
+import pine from '../assets/img/pine.jpg';
+import cloud from '../assets/img/cloud.jpg';
 
 
  const mediaList = [
@@ -10,7 +15,7 @@ import moon from '../assets/img/moon.jpg';
         id: 1,
         title: 'Daylight',
         artist: 'Della Valle',
-        img: 'https://i.scdn.co/image/ab67616d00001e02f0f380f4c2b54e3d0af2430c',
+        img: daylight,
         alt: 'Della Valle - Daylight album cover',
         active: true
     },
@@ -36,6 +41,38 @@ import moon from '../assets/img/moon.jpg';
         artist: 'Halgeir Nielsen',
         img: moon,
         alt: 'Halgeir Nielsen - Under the same moon album cover',
+        active: false
+    },
+    {   
+        id: 5,
+        title: 'Veil of Mist',
+        artist: 'Jonam Breuer',
+        img: mist,
+        alt: 'Jonam Breuer - Veil of Mist album cover',
+        active: false
+    },
+    {   
+        id: 6,
+        title: 'Et tu mirada',
+        artist: 'Jon Albreit',
+        img: mirada,
+        alt: 'Et tu mirada - Sooner album cover',
+        active: false
+    },
+    {   
+        id: 7,
+        title: 'Pine Valley',
+        artist: 'Elois Jacq',
+        img: pine,
+        alt: 'Elois Jacq - Pine Valley album cover',
+        active: false
+    },
+    {   
+        id: 8,
+        title: 'Cloud Atlas',
+        artist: 'Auley Gere',
+        img: cloud,
+        alt: 'Auley Gere - Cloud Atlas album cover',
         active: false
     }
 ];
